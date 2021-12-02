@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array | Home</title>
+    <link rel="stylesheet" href="set-style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ordenando números</h1>
+        <p>Envie três números, e clique em um dos botões para que os números sejam ordenados</p>
+    </header>
+    <main>
+        <form>
+            <input type="number" id="firstNumber" />
+            <input type="number" id="secondNumber" />
+            <input type="number" id="thirdNumber" />
+            <input type="number" id="thirdFourth" />
+            <input type="button" onclick="save()" value="Salvar na memória" />
+            <input type="button" onclick="invert()" value="Inverter a ordem" />
+            <input type="button" onclick="ordem()" value="Ordem crescente" />
+        </form>
+        
+        <article>
+            <span id="number1">x</span>
+            <span id="number2">x</span>
+            <span id="number3">x</span>
+            <span id="number4">x</span>
+        </article>
+
+    </main>   
+    <script src="script.js"></script>
+</body>
+</html>
