@@ -10,17 +10,17 @@ function save(){
 function ordem(){
     copy();
     for(let i = 0; i < y.length; i++){
-        let max = -1000000;
+        let min = Number.MAX_SAFE_INTEGER;
         let id = 0;
         for(let j = 0; j < y.length; j++){
-            if(max < y[j])
+            if(min > y[j])
             {
-                max = y[j];    
+                min = y[j];    
                 id = j;
             }
         }
         x[i] = y[id];
-        y[id] = -1000000;
+        y[id] = Number.MAX_SAFE_INTEGER;
     }
     print();
 }
