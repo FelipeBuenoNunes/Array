@@ -38,6 +38,6 @@ article > span{
     justify-content: center;
     align-items: center;
     border: solid 1px black;
-    width: 2.5vw;
+    min-width: 2.5vw;
     height: 5vh;
 }
