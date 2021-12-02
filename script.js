@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll("input[type = 'number']");
-let x = [0,0,0,0];
-let y = [0,0,0,0];
+const x = [0,0,0,0];
+const y = [0,0,0,0];
 function save(){
     for(let i = 0; i < inputs.length; i++){
         x[i] = parseInt(inputs[i].value);
